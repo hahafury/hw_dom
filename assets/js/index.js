@@ -1,8 +1,6 @@
 const USERNAME_REGEXP = /^[A-z0-9][^\s]{6,20}$/;
 const PASSWORD_REGEXP = /^(?=.*?[A-Z])(?=.*?[0-9]).{8,20}$/;
 
-let username = document.querySelector('#username');
-let password = document.querySelector('#password');
 let registerButton = document.querySelector('#register')
 
 registerButton.addEventListener('click', register);
